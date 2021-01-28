@@ -7,7 +7,7 @@ Therefore, this algorithm is the main key in this tic-tac-toe.
     - <b>python runner.py</b>
  
 # Problem<br/>
-To get a better understanding of the concepts of the search algorithms, we were challenged to implement a tic-tac-toe using the classic <b>MINIMAX<b/> 
+To get a better understanding of the concepts of the search algorithms, we were challenged to implement a tic-tac-toe using the classic <b>MINIMAX</b> 
 algorithm and getting its best performance.
 
 # Objective<br/>
