@@ -19,7 +19,7 @@ To solve this problem with 100% success. We need to create the following variabl
 - <b>X = player 1</b>
 - <b>O = player 2</b>
 
-if <b>X</b> wins you will get <b>+1</b>, but if you win, you’ll get <b>-1</b>, in the event of a tie, the score will be <b>0<b/>.
+if <b>X</b> wins you will get <b>+1</b>, but if you win, you’ll get <b>-1</b>, in the event of a tie, the score will be <b>0</b>.
 after defining the awards, we declare the following functions:
    
 - <b>initial_state()</b> - Function that will receive the initial state of the board.<br/>
