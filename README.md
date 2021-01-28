@@ -1,4 +1,4 @@
-# Tic-tac-toe with MINMAX
+# Tic-tac-toe with MINMAX <br />
 Tic-tac-toe, one of the most classic and simple games to play. Surely you must have played with your friends at some point in your life.
 With the advancement of technology, it allowed us to use this game as a model to validate the artificial intelligence algorithm called **MINIMAX**.
 
@@ -6,26 +6,21 @@ Therefore, this algorithm is the main key in this tic-tac-toe.
 
 - To run the Game script just run: 
     - <b>python runner.py<b>
-
-
-# Problem
-
+ 
+# Problem <br />
 To get a better understanding of the concepts of the search algorithms, we were challenged to implement a tic-tac-toe using the classic **MINIMAX** 
 algorithm and getting its best performance.
 
-# Objective
-
+# Objective <br />
 To obtain the best performance using the MINMAX algorithm in a competition of two agents in the face of the tic-tac-toe game, where an agent only wants 
 to maximize his victory points, but for the other side, what matters is to maximize the defeat points.
 
-# Solution
-
-To solve this problem with 100% success. We need to create the following variables:
-
+# Solution <br />
+To solve this problem with 100% success. We need to create the following variables: <br/>
 - **X = player 1**
 - **O = player 2**
   
-if **X** wins you will get **+1**, but if you win, you’ll get **-1**, in the event of a tie, the score will be **0**.
+if <b>X</b> wins you will get <b>+1</b>, but if you win, you’ll get <b>-1</b>, in the event of a tie, the score will be <b>0<b/>.
 after defining the awards, we declare the following functions:
 
 - **initial_state()** - Function that will receive the initial state of the board.
