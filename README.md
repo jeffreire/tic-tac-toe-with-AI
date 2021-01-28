@@ -32,13 +32,13 @@ after defining the awards, we declare the following functions:
 
 **result()** - Function that will receive the status of the current board and the agent's action. Returning the board with the current actions.
 
-**winner()** - Function that will receive the board and check if there will be any sequence that will determine if the game is over, tied or a victory for any of the agents. Returning x, o or none.
+**winner()** - Function that will receive the board and check if there will be any sequence that will determine if the game is over, tied or a victory for any of the agents. Returning **X**, **O** or none.
 
-**terminal()** - You will receive the board and check whether the game is over or not, if it is over it will return true, otherwise it will return false.
+**terminal()** - You will receive the board and check whether the game is over or not, if it is over it will return **TRUE**, otherwise it will return **FALSE**.
 
 **utility()** - Function that receives the final state of the board and will return **1** if **X** won and **-1** if **O** won.
 
-**minimax()** - Function that contains the implemented minimax algorithm.
+**minimax()** - Function that contains the implemented **MINIMAX AlGORITHM**.
 
 **minimax_aux()** - Function that will make the best search possible to obtain the expected result.
 
