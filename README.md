@@ -1,4 +1,8 @@
 # Tic-tac-toe with MINIMAX<br/>
+<p align="center">
+  <img src="./images/Tic-tac-toe.gif" width="700px" height="500px"/>
+</p>
+
 Tic-tac-toe, one of the most classic and simple games to play. Surely you must have played with your friends at some point in your life.
 With the advancement of technology, it allowed us to use this game as a model to validate the artificial intelligence algorithm called <b>MINIMAX</b>.<br/>
 Therefore, this algorithm is the main key in this tic-tac-toe.
