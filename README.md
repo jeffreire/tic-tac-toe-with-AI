@@ -1,7 +1,7 @@
 # Tic-tac-toe with MINIMAX<br/>
 <p align="center">
-  <img src="./images/Tic-tac-toe.gif" width="700px" height="500px"/>
-</p>
+  <img src="./images/minimax-2.jpg" width="700px" height="500px"/>
+</p><br/>
 
 Tic-tac-toe, one of the most classic and simple games to play. Surely you must have played with your friends at some point in your life.
 With the advancement of technology, it allowed us to use this game as a model to validate the artificial intelligence algorithm called <b>MINIMAX</b>.<br/>
@@ -19,6 +19,10 @@ To obtain the best performance using the MINIMAX algorithm in a competition of t
 to maximize his victory points, but for the other side, what matters is to maximize the defeat points.
 
 # Solution <br/>
+<p align="center">
+  <img src="./images/Tic-tac-toe.gif" width="700px" height="500px"/>
+</p>
+
 To solve this problem with 100% success. We need to create the following variables:<br/>
 - <b>X = player 1</b>
 - <b>O = player 2</b>
