@@ -7,8 +7,15 @@ Tic-tac-toe, one of the most classic and simple games to play. Surely you must h
 With the advancement of technology, it allowed us to use this game as a model to validate the artificial intelligence algorithm called <b>MINIMAX</b>.<br/>
 Therefore, this algorithm is the main key in this tic-tac-toe.
 
-- To run the Game script just run:
+- To run the project just execute the main.py file like this if you have all the requeriments installed:
     - <b>python runner.py</b>
+
+# Requeriments:
+[![Python 3.7.9](https://img.shields.io/badge/python-3.7.9-blue.svg?logo=python&logoColor=white)](https://www.python.org/ftp/python/3.7.9/python-3.7.9-amd64.exe)
+
+[![Pygame 2.0.1](https://img.shields.io/badge/pygame-2.0.1-yellow.svg?logo=pygame&logoColor=white)](https://pypi.org/project/pygame)
+
+
  
 # Problem<br/>
 To get a better understanding of the concepts of the search algorithms, we were challenged to implement a tic-tac-toe using the classic <b>MINIMAX</b> 
