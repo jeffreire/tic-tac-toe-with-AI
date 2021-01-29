@@ -18,7 +18,6 @@ def initial_state():
             [EMPTY, EMPTY, EMPTY],
             [EMPTY, EMPTY, EMPTY]]
 
-
 def player(board):
     """
     Returns player who has the next turn on a board.
@@ -32,7 +31,6 @@ def player(board):
         return O
     else:
         return X 
-
 
 def actions(board):
     """
@@ -49,7 +47,6 @@ def actions(board):
                 possibles_actions.append((i,j))
     return possibles_actions
 
-
 def result(board, action):
     """
     Returns the board that results from making move (i, j) on the board.
@@ -61,8 +58,6 @@ def result(board, action):
     copy_board[action[0]][action[1]] = player(copy_board)
     return copy_board
     
-
-
 def winner(board):
     """
     Returns the winner of the game, if there is one.
@@ -97,8 +92,6 @@ def terminal(board):
                   return False
     return True
 
-
-
 def utility(board):
     """
     Returns 1 if X has won the game, -1 if O has won, 0 otherwise.
@@ -110,7 +103,6 @@ def utility(board):
         return -1
     else:
         return 0
-
 
 def minimax(board):
     """
